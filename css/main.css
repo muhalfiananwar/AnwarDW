@@ -4,7 +4,7 @@ body,html{
 }   
 .section1{
     background: url(../img/virtual-schools-signature.png);
-    padding: 40px 0px;
+    padding: 70px 0px;
     background-position: center;
     background-size:cover;
     width: 100%;
@@ -47,4 +47,17 @@ body,html{
 }
 .isi{
     
+}
+.section3{
+    min-height: 300px;
+    padding: 50px 0px;
+    background: gray
+}
+.link{
+    padding: 10px 15px;
+    color: darkslategray;
+}
+.link:hover{
+    background: chocolate;
+    color: white;
 }

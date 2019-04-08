@@ -12,10 +12,24 @@
     </head>
     <body>
         <!--navbar-->
-        
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnya">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarnya">
+                    <div class="navbar-nav">
+                        <a class="link" href="#home">Home</a>
+                        <a class="link" href="#profile">Profile</a>
+                        <a class="link" href="#about-us">About us</a>
+                        <a class="link" href="https://www.instagram.com/_alfiananwar/?hl=id" target="_blank"> Coba dah liat</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <!--section 1-->
-        <section class="section1"> 
-            <img src="img/logo.png" width="480px">
+        <section class="section1" id="home">
+            <img src="img/logo.png" width="400px">
             <br/>
             <h1 class="judul1">
             <strong>EDUCATIONAL TECHNOLOGY </strong>
@@ -29,7 +43,7 @@
             </h2>
         </section>
         <!--section 2-->
-        <section class="section2"> 
+        <section class="section2" id="profile"> 
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 col-kiri">
@@ -53,13 +67,15 @@
                  
         </section>
         <!--section 3-->
-        <section class="section3">
+        <section class="section3" id="about-us">
             <div class="row">
                 <div class="col col-kiri">
                     Teknologi Kinerja
                 </div>
                 <div class="col col-tengah">
                     Media Pembelajaran
+                    <img src="img/logo.png" width="480px">
+
                 </div>            
                 <div class="col col-kanan">
                     Disain Pembelajaran
@@ -67,5 +83,9 @@
             </div>
         
         </section>
+        <script type="text/javascript" src="js/wow.min.js"></script>        
+        <script type="text/javascript">
+         new WOW().init();
+        </script>
     </body>
 </html>
