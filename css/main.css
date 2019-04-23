@@ -3,8 +3,8 @@ body,html{
     margin:0 auto;
 }   
 .section1{
-    background: url(../img/virtual-schools-signature.png);
-    padding: 70px 0px;
+    background: url(../img/forest_sky_fog_mountains_110519_4496x3000.jpg);
+    padding: 100px 0px;
     background-position: center;
     background-size:cover;
     width: 100%;
@@ -13,7 +13,7 @@ body,html{
     text-align: center;
 }
 .judul1{
-    font-family: langdon;
+    font-family: Century Gothic;
     font-size: 70px;
     color:white;
     
@@ -25,14 +25,16 @@ body,html{
 }
 .section2{
     padding:100px 0px;
-    background-color: dimgray;
+    background-color: #497147;
 }
 .judul2{
     font-family: langdon;
     font-size: 50px;
-    color:darkslategrey;
+    color: white;
+    padding: 0px 100px;
+    text-align: center;
 }
-.col-kiri{ 
+.col-kiri-2{ 
     background: #ccc;
     color: black;
 }
@@ -42,22 +44,68 @@ body,html{
     color: black;
     text-align: justify;
 }
-.col-kanan{
+.col-kanan-2{
     background: #ccc;
-}
-.isi{
-    
+    font-size: 14px;
 }
 .section3{
-    min-height: 300px;
+    height: 70%;
     padding: 50px 0px;
-    background: gray
+    background: #087264;
 }
 .link{
     padding: 10px 15px;
-    color: darkslategray;
+    color: white;
+    font-family:Arial Rounded MT Bold;
 }
 .link:hover{
     background: chocolate;
+    color: white;   
+}
+.navbar-nav{
+    background-color: transparent;
+}
+.pasfoto{
+    padding: 35px 0px;
+}
+.skills3{
+    font-family: langdon;
+    font-size: 50px
+    color: white;
+    padding: 0px 520px;
+    text-align: center;
+}
+.col-a3, .col-b3, .col-c3, .col-d3{
+    float: left;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.section4{
+    height: 95%;
+    padding: 50px 0px;
+    background: #5F9EA0;
+}
+.col-a4, .col-b4, .col-c4{
+    float: left;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+.section5{
+    height: 95%;
+    padding: 50px 0px;
+    background: #5F9EA0;
+}
+.section5{
+    height: 30%;
+    padding: 50px 0px;
+    background: black;
+}
+.col-kiri5, .col-kiri6, .col-kiri7{
     color: white;
 }
